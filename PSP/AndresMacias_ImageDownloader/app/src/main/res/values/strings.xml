@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Image Downloader</string>
+    <string name="main_txt_title">Descarga y Visualización de una imagen mediante un Handler o un Asynctask</string>
+    <string name="main_btn_handler">Usando Handler</string>
+    <string name="main_btn_asynctask">Usando Asynctask</string>
+    <string name="handler_txt_title">Descarga usando Handler</string>
+    <string name="handler_btn_download">Descargar</string>
+    <string name="handler_url_not_entered">Debe introducir una url válida</string>
+</resources>
