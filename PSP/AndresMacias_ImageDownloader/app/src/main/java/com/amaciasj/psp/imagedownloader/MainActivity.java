@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                i = new Intent(MainActivity.this, AsynctaskActivity.class);
+                i = new Intent(MainActivity.this, AsyncTaskActivity.class);
                 startActivity(i);
 
             }

@@ -6,4 +6,7 @@
     <string name="handler_txt_title">Descarga usando Handler</string>
     <string name="handler_btn_download">Descargar</string>
     <string name="handler_url_not_entered">Debe introducir una url válida</string>
+    <string name="asynctask_txt_title">Descarga usando Handler</string>
+    <string name="asynctask_btn_download">Descargar</string>
+    <string name="asynctask_url_not_entered">Debe introducir una url válida</string>
 </resources>

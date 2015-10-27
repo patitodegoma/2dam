@@ -31,8 +31,6 @@ public class HandlerActivity extends AppCompatActivity {
     InputStream is = null;
     Bitmap bm = null;
 
-    final int TAM = 64 * 1024;
-
     // Método de Acceso a Datos
     public InputStream getInputStreamFromURL(String url) {
 
@@ -53,7 +51,6 @@ public class HandlerActivity extends AppCompatActivity {
 
         return is;
     }
-
 
     Handler puente = new Handler() {
         @Override
