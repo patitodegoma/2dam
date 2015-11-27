@@ -21,13 +21,13 @@ public class MainActivity extends AppCompatActivity {
         myList = (ListView)findViewById(R.id.listView);
 
         final ArrayList<Team> canadianTeams = new ArrayList<Team>();
-        canadianTeams.add(new Team("Canadiens","Montreal", true, ContextCompat.getDrawable(this, R.mipmap.ic_canadiens)));
+        canadianTeams.add(new Team("Canadiens", "Montreal", true, ContextCompat.getDrawable(this, R.mipmap.ic_canadiens)));
         canadianTeams.add(new Team("Maple Leafs", "Toronto", true, ContextCompat.getDrawable(this, R.mipmap.ic_mapleleafs)));
         canadianTeams.add(new Team("Oilers", "Edmonton", false, ContextCompat.getDrawable(this, R.mipmap.ic_oilers)));
-        canadianTeams.add(new Team("Senators","Ottawa", false, ContextCompat.getDrawable(this, R.mipmap.ic_senators)));
-        canadianTeams.add(new Team("Canucks","Vancouver", true, ContextCompat.getDrawable(this, R.mipmap.ic_canucks)));
-        canadianTeams.add(new Team("Flames","Calgary", true, ContextCompat.getDrawable(this, R.mipmap.ic_flames)));
-        canadianTeams.add(new Team("Jets","Winnipeg", false, ContextCompat.getDrawable(this, R.mipmap.ic_jets)));
+        canadianTeams.add(new Team("Senators", "Ottawa", false, ContextCompat.getDrawable(this, R.mipmap.ic_senators)));
+        canadianTeams.add(new Team("Canucks", "Vancouver", true, ContextCompat.getDrawable(this, R.mipmap.ic_canucks)));
+        canadianTeams.add(new Team("Flames", "Calgary", true, ContextCompat.getDrawable(this, R.mipmap.ic_flames)));
+        canadianTeams.add(new Team("Jets", "Winnipeg", false, ContextCompat.getDrawable(this, R.mipmap.ic_jets)));
 
         final TeamAdapter myAdapter = new TeamAdapter(this,canadianTeams);
 
