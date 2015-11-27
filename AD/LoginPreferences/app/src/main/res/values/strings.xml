@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">LoginPreferences</string>
-    <string name="main_txt_title">Formulario de Acceso</string>
-    <string name="main_txt_email">Introduzca su E-Mail</string>
-    <string name="main_txt_password">Introduzca su contraseña</string>
-    <string name="main_btn_send">Entrar</string>
-    <string name="logged_txt_welcome">BIENVENIDO!!!</string>
-</resources>
