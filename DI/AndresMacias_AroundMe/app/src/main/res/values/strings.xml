@@ -1,8 +1,18 @@
 <resources>
     <string name="app_name">AndresMacias_AroundMe</string>
-
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
     <string name="action_settings">Settings</string>
+    <string name="login_txt_bienvenida">Bienvenido a AroundMe</string>
+    <string name="login_txt_introducirlogin">Introduzca su nickname</string>
+    <string name="login_btn_login">Entrar</string>
+    <string name="login_btn_registrar">Registrarse</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mensajes_txt_enviando">Enviar mensaje para: </string>
+    <string name="mensajes_txt_user">Usuario </string>
+    <string name="mensajes_btn_send">Enviar</string>
+    <string name="menu_borrar_datos">Desconectar</string>
+    <string name="menu_users">Lista Usuarios</string>
+    <string name="menu_messajes">Mis Mensajes</string>
+
 </resources>
